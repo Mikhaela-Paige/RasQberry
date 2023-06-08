@@ -55,7 +55,7 @@ To pull any chagnes from the repository you can use
 or alternatively to simply access the Configuration Tool just use
 
 ```pyhton 
-rasqberry-config 
+sudo rasqberry-config 
 ````
 
 in your terminal/ssh window.
