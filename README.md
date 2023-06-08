@@ -38,18 +38,24 @@ When you already have a RasQberry that you can use you can install RasQberry in 
 Open the terminal/ssh window on your Raspberry Pi.
 ```python
 pip3 install getgist
-.local/bin/getgist -y JanLahmann RasQ-init.sh
+.local/bin/getgist -y Mikhaela-Paige RasQ-init.sh
 . ./RasQ-init.sh
 ```
 <p align="center"> 
-    <img src="./Artwork/rasqberry_config-1.png" alt="drawing"/> <img src="./Artwork/rasqberry_config-2.png" alt="drawing"/> 
+    <img src="./Artwork/rasqberry_config-1.png" alt="drawing"/>
 </p>
 
 This will download and start the RasQberry Configuration Tool (rasqberry-config) in your terminal. It is similar to the well-known raspi-config and can also be used for some basic configurations. 
-To start the tool again you can use 
+To pull any chagnes from the repository you can use 
 
 ```pyhton 
 . ./RasQ-init.sh 
+````
+
+or alternatively to simply access the Configuration Tool just use
+
+```pyhton 
+rasqberry-config 
 ````
 
 in your terminal/ssh window.
