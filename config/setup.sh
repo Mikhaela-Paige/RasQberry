@@ -46,7 +46,7 @@ do_rq_one_click_install() {
 do_rq_one_click_demo_install() {
   update_environment_file "INTERACTIVE" "false"
   do_rasqberry_run_bloch
-  do_rasqberry_Qoffee_local
+  #do_rasqberry_Qoffee_local
   update_environment_file "INTERACTIVE" "true"
   if [ "$INTERACTIVE" = true ]; then
     [ "$RQ_NO_MESSAGES" = false ] && whiptail --msgbox "Please exit and reboot" 20 60 1
