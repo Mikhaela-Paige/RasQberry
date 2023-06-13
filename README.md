@@ -7,7 +7,6 @@
 
 RasQberry integrates [Qiskit](https://qiskit.org/), a Raspberry Pi (the full range from Pi 4 down to a Pi Zero) and a 3D printed model of [IBM Q System One](https://www.research.ibm.com/quantum-computing/system-one/) to explore various state-of-the-art technologies and create a tool that can be used in meetings, meetups, demo booths, etc. A spectrum of Quantum Computing demos and Serious Games for Quantum Computing (that illustrate superposition, interference and entanglement) will be made available on this device for an engaging introduction to Quantum Computing. 
 
-<img src="./wallpapers/ibmqantumTwoGlowScaled.png" alt="drawing" /> <br/>
 
 ## Qiskit on Raspberry Pi
 A first description how to install Qiskit on a Raspberry Pi is available at http://ibm.biz/Qiskit-Raspberry-Medium. It also includes a description how to set up some quantum demos (Qrasp, Raspberry-Tie) based on a Sense Hat 8x8 LED display.
